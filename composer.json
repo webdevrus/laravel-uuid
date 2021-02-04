@@ -1,0 +1,23 @@
+{
+    "name": "webdevrus/laravel-uuid",
+    "description": "UUID",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "WebDevRus",
+            "email": "web.developers.rus@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebDevRus\\Laravel\\": "src/Traits/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
